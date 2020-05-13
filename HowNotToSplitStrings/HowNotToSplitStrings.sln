@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HowNotToSplitStrings", "HowNotToSplitStrings\HowNotToSplitStrings.csproj", "{9C906D07-5CA9-4310-B76B-FF6472B294DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Root", "Solution Root", "{C84C3111-1D0B-450E-A83F-9F4C1963A553}"
+	ProjectSection(SolutionItems) = preProject
+		HowNotToSplitStrings-MemoryAllocations.JPG = HowNotToSplitStrings-MemoryAllocations.JPG
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repo Root", "Repo Root", "{B5C0003E-77ED-496E-B948-BB5525C0F1F1}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PerfView", "PerfView", "{32CAA704-F16D-47BC-922B-B278DA1843F1}"
+	ProjectSection(SolutionItems) = preProject
+		..\PerfView\PerfView.exe = ..\PerfView\PerfView.exe
+		..\PerfView\PerfView.exe.config = ..\PerfView\PerfView.exe.config
+		..\PerfView\PerfView.pdb = ..\PerfView\PerfView.pdb
+		..\PerfView\PerfView.xml = ..\PerfView\PerfView.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C906D07-5CA9-4310-B76B-FF6472B294DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C906D07-5CA9-4310-B76B-FF6472B294DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C906D07-5CA9-4310-B76B-FF6472B294DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C906D07-5CA9-4310-B76B-FF6472B294DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32CAA704-F16D-47BC-922B-B278DA1843F1} = {C84C3111-1D0B-450E-A83F-9F4C1963A553}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {929F812A-1DE0-4C52-88C4-E0A7E9EEC8DD}
+	EndGlobalSection
+EndGlobal
