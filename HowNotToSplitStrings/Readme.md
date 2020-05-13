@@ -24,7 +24,7 @@ Internally, within the String.Split method there are two things happening that a
 
 Here is an image showing the varying degrees of memory consumption depending on the string vs. char array overload and the StringSplitOptions specified.
 
-[String.Split varying Memory Allocation](HowNotToSplitStrings-MemoryAllocations.JPG)
+![String.Split varying Memory Allocation](HowNotToSplitStrings-MemoryAllocations.JPG)
 
 The image shows the varying degrees of memory utilization as each method does the same amount of splitting on the exact same data. The only changes are the parameters specified to String.Split.
 
