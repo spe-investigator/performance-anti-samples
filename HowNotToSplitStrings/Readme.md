@@ -1,6 +1,6 @@
 ﻿#How **not** to split strings in .NET.
 
-Who is [Software Performance Ensurance]? We're a software consulting business that offers performance root-cause identification services. [Learn more](https://softwareperformanceensurance.com) about our unique offering that enables production cause isolation with unparalleled mean-time-to-resolution.
+Who is [Software Performance Ensurance](https://softwareperformanceensurance.com)? We're a software consulting business that offers performance root-cause identification services. [Learn more](https://softwareperformanceensurance.com) about our unique offering that enables production cause isolation with unparalleled mean-time-to-resolution.
 
 ## Intro
 
