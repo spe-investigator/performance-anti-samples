@@ -1,5 +1,7 @@
 ﻿#How **not** to split strings in .NET.
 
+Who is [Software Performance Ensurance]? We're a software consulting business that offers performance root-cause identification services. [Learn more](https://softwareperformanceensurance.com) about our unique offering that enables production cause isolation with unparalleled mean-time-to-resolution.
+
 ## Intro
 
 This issue within .NET was identified as part of a performance analysis being within within some client code.
