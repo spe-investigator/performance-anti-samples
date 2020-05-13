@@ -27,3 +27,7 @@ Here is an image showing the varying degrees of memory consumption depending on 
 [String.Split varying Memory Allocation](HowNotToSplitStrings-MemoryAllocations.JPG)
 
 The image shows the varying degrees of memory utilization as each method does the same amount of splitting on the exact same data. The only changes are the parameters specified to String.Split.
+
+* Mitigation
+
+As seen in the above image, the "slimmest" version of the method is the String array with KeepEmpties option. However, keep an eye out for our upcoming high performance nuget package that will reduce the memory allocations down to nominal levels.

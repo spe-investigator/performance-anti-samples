@@ -7,4 +7,4 @@ There performance optimmizations within .NET are really too many to count.  So, 
 
 We hope you enjoy this dictionary of anti-samples, for your viewing pleasure.
 
-1. [How **not** to split strings.](./HowNotToSplitStrings/Readme.md)
+1. [How **not** to split strings.](./HowNotToSplitStrings/)
