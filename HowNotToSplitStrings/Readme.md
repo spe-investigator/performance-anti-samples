@@ -1,12 +1,12 @@
-﻿How **not** to split strings in .NET.
+﻿#How **not** to split strings in .NET.
 
-* Intro
+## Intro
 
 This issue within .NET was identified as part of a performance analysis being within within some client code.
 
 Although we would like to think that the .NET Framework has/had been thoroughly vetted from a performance perspective, the truth is likely mucher further from this than we'd like.
 
-* Who's impacted?
+## Who's impacted?
 
 This issue impacts two main category of tasks:
 
@@ -14,7 +14,7 @@ This issue impacts two main category of tasks:
 2. Use of String.Split within multi-threaded scenarios such as web processing.
 3. Quantity of **expensive** Gen 2 garbage collections performed when splitting long strings.
 
-* Overview
+## Overview
 
 Internally, within the String.Split method there are two things happening that are prohibiting optimal performance under a single-delimiter scenario, which is the typical use case for this code.
 
@@ -28,6 +28,6 @@ Here is an image showing the varying degrees of memory consumption depending on 
 
 The image shows the varying degrees of memory utilization as each method does the same amount of splitting on the exact same data. The only changes are the parameters specified to String.Split.
 
-* Mitigation
+## Mitigation
 
-As seen in the above image, the "slimmest" version of the method is the String array with KeepEmpties option. However, keep an eye out for our upcoming high performance nuget package that will reduce the memory allocations down to nominal levels.
+As seen in the above image, the "slimmest" version of the method is the String array with KeepEmpties option. However, keep an eye out for our [upcoming high performance](https://github.com/spe-investigator/) nuget package that will reduce the memory allocations down to nominal levels.
